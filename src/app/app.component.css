@@ -90,3 +90,47 @@ form{
     font-size: 0.75rem;
     display: inline;
 }
+
+.toggle{
+    color: #151111;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.toggle:hover{
+    color: #8371fd;
+}
+
+.input-wrap{
+    position: relative;
+    height: 37px;
+    margin-bottom: 2rem;
+}
+
+.inputfeild{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bbb;
+    padding: 0;
+    font-size: 0.95rem;
+    color: #151111;
+}
+
+label{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.95rem;
+    color: #bbb;
+    pointer-events: none;
+
+}
+.active{
+    background-color: red;
+}
